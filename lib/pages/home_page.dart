@@ -6,7 +6,7 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Center(
-      child: Text('Halaman Utama', style: TextStyle(fontSize: 24)),
+      child: Text('Halaman Utama', style: TextStyle(fontSize: 24, color: Colors.blue)),
     );
   }
 }
